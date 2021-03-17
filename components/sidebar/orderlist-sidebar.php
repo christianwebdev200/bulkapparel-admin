@@ -94,22 +94,106 @@
     <div class="card-scrollable">
         <div class="row">
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "John Doe";
+                $orderCount = "175";
+                $overallPurchase = '$299.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "Miko Doe";
+                $orderCount = "175";
+                $overallPurchase = '$5299.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "Christopher Doe";
+                $orderCount = "175";
+                $overallPurchase = '$599.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "Roi Doe";
+                $orderCount = "175";
+                $overallPurchase = '$145299.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "Rob Doe";
+                $orderCount = "175";
+                $overallPurchase = '$145299.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
             <div class="col-12">
-                <?php include('./components/cards/OrderCard.php') ?>
+                <?php $orderName = "John Doe";
+                $orderCount = "175";
+                $overallPurchase = '$145299.25';
+                $lastOrder = "2021-03-10 15:15:47 AM";
+                $zipCode = "92121";
+                $orderEmail = "johndoe@gmail.com";
+                $orderMethod = "Y-P-1111Y";
+                $inBatch = "IN BATCH";
+                $invoice = "1152524";
+                $orderNo = "B615268964905";
+                $scStatus = "Approved";
+                $totalPrice = "$46.65";
+                $orderDate = "03/11/2021 04:08:1 PM";
+                $accountType = "G";
+                include('./components/cards/OrderCard.php') ?>
             </div>
         </div>
     </div>

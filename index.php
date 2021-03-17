@@ -14,7 +14,7 @@
     <header>
 
     </header>
-    <main class="order-page">
+    <main class="new-admin order-page">
         <aside>
             <?php include('./components/sidebar/orderlist-sidebar.php') ?>
         </aside>

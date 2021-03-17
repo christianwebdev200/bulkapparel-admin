@@ -11,7 +11,7 @@
 	"ignores": ["*.css"],
 
 	"options": {
-		"outputStyle": "nested",
+		"outputStyle": "compressed",
 
 		"lineComments": false,
 

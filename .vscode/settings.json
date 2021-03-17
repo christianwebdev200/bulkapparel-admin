@@ -8,7 +8,7 @@
     "liveServer.settings.proxy": {
         "enable": true,                             //   i. enabled
         "baseUri": "/",                             //  ii. workspace
-        "proxyUri": "http://localhost/webdev200/index.php" // iii. actual address
+        "proxyUri": "http://localhost/bulkapparel-admin/index.php" // iii. actual address
     },
     "editor.formatOnSave": true,
    
