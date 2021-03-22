@@ -8,20 +8,20 @@
          </p>
      </div>
      <div class="order-header__others">
-         <div class="label-value-col mr-3">
-             <p class="label">Shipped QTY</p>
+         <div class="text-value-col mr-3">
+             <p class="text">Shipped QTY</p>
              <p class="value"><b>3</b></p>
          </div>
-         <div class="label-value-col mr-3">
-             <p class="label">Shipped QTY</p>
+         <div class="text-value-col mr-3">
+             <p class="text">Shipped QTY</p>
              <p class="value"><b>24.08</b> </p>
          </div>
-         <div class="label-value-col mr-3">
-             <p class="label">COG %</p>
+         <div class="text-value-col mr-3">
+             <p class="text">COG %</p>
              <p class="value"><b>156.47%</b></p>
          </div>
-         <div class="label-value-col text--danger">
-             <p class="label">Charge</p>
+         <div class="text-value-col text--danger">
+             <p class="text">Charge</p>
              <p class="value"><b>$81.16</b></p>
          </div>
      </div>

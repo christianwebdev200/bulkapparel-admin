@@ -1,4 +1,18 @@
 <?php
+$orderName = "John Doe";
+$orderCount = "175";
+$overallPurchase = '$299.25';
+$lastOrder = "2021-03-10 15:15:47 AM";
+$zipCode = "92121";
+$orderEmail = "johndoe@gmail.com";
+$orderMethod = "Y-P-1111Y";
+$inBatch = "IN BATCH";
+$invoice = "1152524";
+$orderNo = "B615268964905";
+$scStatus = "Approved";
+$totalPrice = "$46.65";
+$orderDate = "03/11/2021 04:08:1 PM";
+$accountType = "G";
 ?>
 <div class="card card--order">
     <div class="card-body">
@@ -46,7 +60,11 @@
             <p class="order-number mx-1">|</p>
             <p><b><a href=""><?php echo $orderNo ?></a></b></p>
 
-            <p class="sc-status ml-auto"><span>SC:</span><b class="text--primary"><?php echo $scStatus ?></b></p>
+            <p class="sc-status ml-auto"><span>SC:</span><b class="text--primary"><?php echo $scStatus ?></b>
+            <div class="form-check ml-1">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            </div>
+            </p>
         </div>
         <div class="card--order__content mb-1">
             <p class="h6"><b><a href=""><?php echo $orderDate ?>M</a></b></p>

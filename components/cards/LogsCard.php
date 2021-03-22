@@ -1,4 +1,19 @@
  <?php
+$logName = "Alpha Border";
+$done = true;
+$badge = "In Progress";
+$PONo = "BULK-960720";
+$shipping = "19.34";
+$total = "24.08000";
+$shipMethod = "";
+$shipDate = "0000-00-00 00:00:00";
+$orderDate = "2021-03-07 22:04:24";
+$weight = "0.000000";
+$totalPieces = "3";
+$totalLine = "3";
+$totalBoxes = "3";
+$trackingNumber = "1Z302E48020605290";
+$add = "0000-00-00 00:00:00";
     ?>
  <div class="card">
      <div class="card-body">
@@ -16,50 +31,50 @@
 
          <div class="card--logs__content">
              <p>
-                 <span class="label">PO No.</span>
+                 <span class="text">PO No.</span>
                  <span class="value ml-auto"><?php echo $PONo ?></span>
              </p>
              <p>
-                 <span class="label">Shipping</span>
+                 <span class="text">Shipping</span>
                  <span class="value ml-auto"><?php echo $shipping ?>4</span>
              </p>
              <p>
-                 <span class="label">Total</span>
+                 <span class="text">Total</span>
                  <span class="value ml-auto"><?php echo $total ?></span>
              </p>
              <p>
-                 <span class="label">Ship Method</span>
+                 <span class="text">Ship Method</span>
                  <span class="value ml-auto"><?php echo $shipMethod ?></span>
              </p>
              <p>
-                 <span class="label">Ship Date</span>
+                 <span class="text">Ship Date</span>
                  <span class="value ml-auto"><?php echo $shipDate ?>0</span>
              </p>
              <p>
-                 <span class="label">Order Date</span>
+                 <span class="text">Order Date</span>
                  <span class="value ml-auto"><?php echo $orderDate ?>4</span>
              </p>
              <p>
-                 <span class="label">Weight</span>
+                 <span class="text">Weight</span>
                  <span class="value ml-auto"><?php echo $weight ?>0</span>
              </p>
              <p>
-                 <span class="label">Total Pieces</span>
+                 <span class="text">Total Pieces</span>
                  <span class="value ml-auto"><?php echo $totalPieces ?>3</span>
              </p>
              <p>
-                 <span class="label">Total Line</span>
+                 <span class="text">Total Line</span>
                  <span class="value ml-auto"><?php echo $totalLine ?>3</span>
              </p>
              <p>
-                 <span class="label">Total Boxes</span>
+                 <span class="text">Total Boxes</span>
                  <span class="value ml-auto"><?php echo $totalBoxes ?></span>
              </p>
              <p>
-                 <span class="label">Tracking Numbers</span>
+                 <span class="text">Tracking Numbers</span>
                  <span class="value ml-auto"><?php echo $trackingNumber ?></span>
              <p>
-                 <span class="label">ADD</span>
+                 <span class="text">ADD</span>
                  <span class="value ml-auto"><?php echo $add ?>0</span>
              </p>
          </div>
