@@ -1,3 +1,6 @@
+<?php 
+ $title="Color"; $id="color"; 
+?>
 <select class="select-transparent custom-select" id="<?php echo $id ?>">
     <option selected="" disabled><?php echo $title ?></option>
     <option value="1">One</option>

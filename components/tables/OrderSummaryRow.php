@@ -1,3 +1,6 @@
+<?php
+$edit = false;
+?>
 <tr>
     <td class="details" scope="col">
         <div class="details-main">
@@ -17,15 +20,23 @@
                     <p class="text">
                         Color:
                     </p>
-                    <p class="value"><b>White</b></p>
-                    <?php $title="Color"; $id="color"; include('./components/picker/Select.php'); ?>
+                    <?php if ($edit) : ?>
+                        <?php
+                        include('./components/picker/Select.php'); ?>
+                    <?php else : ?>
+                        <p class="value"><b>White</b></p>
+                    <?php endif ?>
                 </div>
-                  <div class="text-value-row align-items-center">
+                <div class="text-value-row align-items-center">
                     <p class="text">
                         Size:
                     </p>
-                    <p class="value"><b>XL</b></p>
-                    <?php $title="Size"; $id="size"; include('./components/picker/Select.php'); ?>
+                    <?php if ($edit) : ?>
+                        <?php
+                        include('./components/picker/Select.php'); ?>
+                    <?php else : ?>
+                        <p class="value"><b>XL</b></p>
+                    <?php endif ?>
                 </div>
                 <div class="text-value-row">
                     <p class="text">
@@ -33,7 +44,7 @@
                     </p>
                     <p><b>1-3 Bussiness Days</b></p>
                 </div>
-              
+
 
                 <div class="details-main__more text--primary">
                     <p>
@@ -142,4 +153,3 @@
     <td class="total" scope="col"><b>$31.68</b></td>
     <td class="remove" scope="col"><button class="btn btn-outline-danger px-1 py-0">×</button></td>
 </tr>
-

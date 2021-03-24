@@ -78,7 +78,7 @@
             </li>
 
             <li>
-                <a class="btn btn--flat-primary ml-auto">Open in Maps</a>
+                <a class="btn btn--flat-primary">Open in Maps</a>
             </li>
         </ul>
         <ul>
@@ -153,7 +153,7 @@
             </li>
 
             <li>
-                <a class="btn btn--flat-primary ml-auto">Open in Maps</a>
+                <a class="btn btn--flat-primary">Open in Maps</a>
             </li>
         </ul>
         <ul>
@@ -162,7 +162,7 @@
             </li>
 
             <li>
-                <a class="btn btn--flat-primary ml-auto">112.205.248.80</a>
+                <a class="btn btn--flat-primary">112.205.248.80</a>
             </li>
         </ul>
 

@@ -9,18 +9,10 @@
 
                 </div>
 
-
                 <?php
-                $notes = "Hello, World. Test 1";
-                $author = "Webdev Dev";
-                $time = "Mar 10, 2021 03:03:15 AM";
                 include('./components/cards/NotesCard.php') ?>
 
-
                 <?php
-                $notes = "Hello, World. Test 1";
-                $author = "Webdev Dev";
-                $time = "Mar 10, 2021 03:03:15 AM";
                 include('./components/cards/NotesCard.php') ?>
 
                 <div class="input-group d-flex">
@@ -40,8 +32,6 @@
 
                 <?php include('./components/cards/ReturnCard.php') ?>
                 <?php include('./components/cards/ReturnCard.php') ?>
-
-
             </div>
         </div>
     </div>

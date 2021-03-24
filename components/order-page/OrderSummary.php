@@ -1,4 +1,7 @@
-<div class="card">
+<?php
+$edit = false;
+?>
+<div class="card mb-2">
     <div class="card-body">
         <div class="card-header py-0 mb-2 d-flex align-items-center">
             <h5 class="card-title mb-0">
@@ -211,43 +214,65 @@
             <div class="order-summary__amounts">
                 <ul>
                     <li>
-                        <p class="title">Subtotal</p>
-                        <p class="value"><b>$1.76</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">Subtotal</p>
+                            <p class="value"><b>$1.76</b></p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title">Shipping</p>
-                        <p class="value"><b>$1.76</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">Shipping</p>
+                            <p class="value"><b>$1.76</b></p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title">Text</p>
-                        <p class="value"><b>$0.14</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">Text</p>
+                            <p class="value"><b>$0.14</b></p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title text--danger">Bulk Discount</p>
-                        <p class="value text--danger"><b>-$0.00</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title text--danger">Bulk Discount</p>
+                            <p class="value text--danger"><b>-$0.00</b></p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title">
-                        <h5>Total</h5>
-                        </p>
-                        <p class="value">
-                        <h5>$10.89</h5>
-                        </p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">
+                            <h5>Total</h5>
+                            </p>
+                            <p class="value">
+                            <h5>$10.89</h5>
+                            </p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title">Refund amount</p>
-                        <p class="value"><b>$0.00</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">Refund amount</p>
+                            <p class="value"><b>$0.00</b></p>
+                        <?php endif ?>
                     </li>
                     <li>
-                        <p class="title">Remaining amount</p>
-                        <p class="value"><b>$10.80</b></p>
-                        <input type="text" class="form-control" value="1.76">
+                        <?php if ($edit) : ?>
+                            <input type="text" class="form-control" value="1.76">
+                        <?php else : ?>
+                            <p class="title">Remaining amount</p>
+                            <p class="value"><b>$10.80</b></p>
+                        <?php endif ?>
+                       
                     </li>
                 </ul>
             </div>

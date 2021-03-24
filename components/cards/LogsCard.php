@@ -15,7 +15,7 @@ $totalBoxes = "3";
 $trackingNumber = "1Z302E48020605290";
 $add = "0000-00-00 00:00:00";
     ?>
- <div class="card">
+ <div class="card card--logs">
      <div class="card-body">
          <div class="card-header">
              <div class="card-title"><?php echo $logName ?></div>
