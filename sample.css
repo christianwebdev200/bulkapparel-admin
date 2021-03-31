@@ -1,0 +1,24 @@
+.note-container {
+
+}
+
+.note-preview {
+
+}
+
+#editorNote {
+
+}
+
+.show-edit-logs {
+
+}
+
+#notes-container {
+
+}
+
+#notes-container li {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,4 +1,4 @@
-<div class="card card--customer">
+<div class="card card--status-logs">
     <div class="card-body">
         <div class="card-header py-0">
             <h5 class="card-title mr-auto">
@@ -6,9 +6,11 @@
             </h5>
         </div>
 
-        <?php
-        include('./components/cards/AutomationLogsCard.php') ?>
-        <?php
-        include('./components/cards/AutomationLogsCard.php') ?>
+        <div class="card--status-logs__list">
+            <?php
+            include('./components/cards/AutomationLogsCard.php') ?>
+            <?php
+            include('./components/cards/AutomationLogsCard.php') ?>
+        </div>
     </div>
 </div>

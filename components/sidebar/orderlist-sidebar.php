@@ -93,10 +93,15 @@
             </div>
         </div>
         <div class="card-scrollable">
+            <!-- <?php include('./components/utils/SimpleLoading.php') ?> -->
+
+            <p class="order-page__order-list-no-results">
+                No results, Please try again.
+            </p>
+
             <div class="row">
                 <div class="col-12">
-                    <?php
-                    include('./components/cards/OrderCard.php') ?>
+                    <?php include('./components/cards/OrderCard.php') ?>
                 </div>
                 <div class="col-12">
                     <?php
