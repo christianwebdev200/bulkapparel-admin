@@ -5,7 +5,7 @@
                 Additional Details
             </h5>
 
-           <div class="text-value-row ml-auto">
+            <div class="text-value-row ml-auto">
                 <p class="text">
                     Order Id
                 </p>
