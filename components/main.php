@@ -1,7 +1,4 @@
 <div class="order-page__main">
-    <!-- <?php include('./components/order-page/OrderLoading.php') ?>
-    <?php include('./components/order-page/OrderFront.php') ?> -->
-
     <div class="container-fluid mt-2" style="display: block;">
         <?php include('./components/order-page/OrderHeader.php') ?>
         <?php include('./components/order-page/OrderButtons.php') ?>
