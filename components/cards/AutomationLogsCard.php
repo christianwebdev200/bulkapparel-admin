@@ -8,7 +8,7 @@
         <?php echo $alert ?>
     </p>
     <?php if ($badge) : ?>
-        <span class="badge badge-primary mt-1"> <?php echo $badge ?></span>
+        <!-- <span class="badge badge-primary mt-1"> <?php echo $badge ?></span> -->
     <?php endif; ?>
 
     <p class="text--lightGray mt-1"> <?php echo $time ?></p>

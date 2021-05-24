@@ -8,9 +8,9 @@ $time = "3/7/2021, 06:04:24 PM";
     <p class="mb-0">
         <?php echo $alert ?>
     </p>
-    <?php if ($badge) : ?>
+    <!-- <?php if ($badge) : ?>
         <span class="badge badge-primary mt-1"> <?php echo $badge ?></span>
-    <?php endif; ?>
+    <?php endif; ?> -->
 
     <p class="text--lightGray mt-1"> <?php echo $time ?></p>
 </div>

@@ -31,16 +31,15 @@
                     <div class="col-12 mb-2">
                         <?php include('./components/order-page/OrderAlert.php') ?>
                     </div>
-                    <div class="col-12 mb-2">
+                    <!-- <div class="col-12 mb-2">
                         <?php include('./components/order-page/OrderCustomer.php') ?>
-                    </div>
+                    </div> -->
                     <div class="col-12 mb-2">
                         <?php include('./components/order-page/OrderAutomationLog.php') ?>
                     </div>
                     <div class="col-12 mb-2">
                         <?php include('./components/order-page/OrderStatusLog.php') ?>
                     </div>
-
                 </div>
             </div>
         </div>
