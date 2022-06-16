@@ -5,26 +5,26 @@
         <div class="card-scrollable">
             <div class="row">
                 <div class="col-12 mb-2">
-                    <?php include('./components/cards/LogsCard.php') ?>
+                    <?php include('./components/orderoptimized/cards/LogsCard.php') ?>
                 </div>
                 <div class="col-12 mb-2">
-                    <?php include('./components/cards/LogsCard.php') ?>
-                </div>
-                <div class="col-12 mb-2">
-                    <?php
-                    include('./components/cards/LogsCard.php') ?>
+                    <?php include('./components/orderoptimized/cards/LogsCard.php') ?>
                 </div>
                 <div class="col-12 mb-2">
                     <?php
-                    include('./components/cards/LogsCard.php') ?>
+                    include('./components/orderoptimized/cards/LogsCard.php') ?>
                 </div>
                 <div class="col-12 mb-2">
                     <?php
-                    include('./components/cards/LogsCard.php') ?>
+                    include('./components/orderoptimized/cards/LogsCard.php') ?>
                 </div>
                 <div class="col-12 mb-2">
                     <?php
-                    include('./components/cards/LogsCard.php') ?>
+                    include('./components/orderoptimized/cards/LogsCard.php') ?>
+                </div>
+                <div class="col-12 mb-2">
+                    <?php
+                    include('./components/orderoptimized/cards/LogsCard.php') ?>
                 </div>
             </div>
 

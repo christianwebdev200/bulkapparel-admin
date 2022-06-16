@@ -8,9 +8,9 @@
 
         <div class="card--status-logs__list">
             <?php
-            include('./components/cards/AutomationLogsCard.php') ?>
+            include('./components/orderoptimized/cards/AutomationLogsCard.php') ?>
             <?php
-            include('./components/cards/AutomationLogsCard.php') ?>
+            include('./components/orderoptimized/cards/AutomationLogsCard.php') ?>
         </div>
     </div>
 </div>

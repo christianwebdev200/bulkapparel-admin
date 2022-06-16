@@ -139,7 +139,7 @@
                 <div class="row">
                     <div class="col-6">
                         <?php
-                        include('./components/cards/NotesCard.php') ?>
+                        include('./components/orderoptimized/cards/NotesCard.php') ?>
 
                         <div class="input-group d-flex">
                             <textarea type="text" rows="3" placeholder="Enter Notes" class="form-control " aria-label="Username" aria-describedby="addon-wrapping"></textarea>

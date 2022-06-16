@@ -22,7 +22,7 @@ $edit = false;
                     </p>
                     <?php if ($edit) : ?>
                         <?php
-                        include('./components/picker/Select.php'); ?>
+                        include('./components/orderoptimized/picker/Select.php'); ?>
                     <?php else : ?>
                         <p class="value"><b>White</b></p>
                     <?php endif ?>
@@ -33,7 +33,7 @@ $edit = false;
                     </p>
                     <?php if ($edit) : ?>
                         <?php
-                        include('./components/picker/Select.php'); ?>
+                        include('./components/orderoptimized/picker/Select.php'); ?>
                     <?php else : ?>
                         <p class="value"><b>XL</b></p>
                     <?php endif ?>

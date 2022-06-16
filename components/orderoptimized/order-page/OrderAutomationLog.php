@@ -8,7 +8,7 @@
 
         <div class="card--automation-logs__list">
             <?php
-            include('./components/cards/AutomationLogsCard.php') ?>
+            include('./components/orderoptimized/cards/AutomationLogsCard.php') ?>
         </div>
     </div>
 </div>

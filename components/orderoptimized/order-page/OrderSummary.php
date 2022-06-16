@@ -73,7 +73,7 @@ $edit = false;
             </div>
         </div>
 
-        <?php include('./components/tables/OrderSummaryTable.php'); ?>
+        <?php include('./components/orderoptimized/tables/OrderSummaryTable.php'); ?>
 
 
         <div class="order-summary__footer">

@@ -9,7 +9,7 @@
          </tr>
      </thead>
      <tbody>
-         <?php include('./components/tables/OrderSummaryRow.php'); ?>
-         <?php include('./components/tables/OrderSummaryRow.php'); ?>
+         <?php include('./components/orderoptimized/tables/OrderSummaryRow.php'); ?>
+         <?php include('./components/orderoptimized/tables/OrderSummaryRow.php'); ?>
      </tbody>
  </table>

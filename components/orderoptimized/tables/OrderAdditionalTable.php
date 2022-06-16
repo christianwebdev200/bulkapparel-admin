@@ -13,8 +13,8 @@
          </tr>
      </thead>
      <tbody>
-         <?php include('./components/tables/OrderAdditionalRow.php'); ?>
-         <?php include('./components/tables/OrderAdditionalRow.php'); ?>
-         <?php include('./components/tables/OrderAdditionalRow.php'); ?>
+         <?php include('./components/orderoptimized/tables/OrderAdditionalRow.php'); ?>
+         <?php include('./components/orderoptimized/tables/OrderAdditionalRow.php'); ?>
+         <?php include('./components/orderoptimized/tables/OrderAdditionalRow.php'); ?>
      </tbody>
  </table>

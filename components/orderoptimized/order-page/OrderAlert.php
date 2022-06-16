@@ -5,7 +5,7 @@
                 Alerts
             </h5>
         </div>
-        <?php include('./components/cards/AlertCard.php') ?>
-        <?php include('./components/cards/AlertCard.php') ?>
+        <?php include('./components/orderoptimized/cards/AlertCard.php') ?>
+        <?php include('./components/orderoptimized/cards/AlertCard.php') ?>
     </div>
 </div>
