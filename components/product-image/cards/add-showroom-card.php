@@ -1,4 +1,4 @@
-<div class="card card-add-media" data-toggle="modal" data-target="#chooseMediaModal">
+<div class="card card-add-media">
 
     <div class="card-add-media__body">
 

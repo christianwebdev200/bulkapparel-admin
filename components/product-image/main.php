@@ -486,7 +486,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_f_fm.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 2,
@@ -494,7 +493,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_fm.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 3,
@@ -502,7 +500,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_b_fm.jpg",
             "is_custom_model_image" => true,
-            "selected" => false
         ],
         [
             "id" => 4,
@@ -510,7 +507,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_62.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 5,
@@ -518,7 +514,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_sd_62.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 6,
@@ -526,7 +521,6 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_bk_62.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 7,
@@ -535,7 +529,6 @@ $product = [
             "video_url" => "https://www.alphabroder.com/prodvid/mp4/88189_vv.mp4",
             "video_thumbnail_url" => "https://www.bulkapparel.com/image/fashion-wear/16_fm.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
         [
             "id" => 8,
@@ -544,15 +537,10 @@ $product = [
             "youtube_url" => "https://www.youtube.com/watch?v=qyPuqamGZf0",
             "youtube_thumbnail_url" => "https://www.bulkapparel.com/image/fashion-wear/16_fm.jpg",
             "is_custom_model_image" => false,
-            "selected" => false
         ],
     ]
 ];
 ?>
-<style>
-
-</style>
-
 <div class="row">
     <div class="col col-12">
         <div class="card border-bottom rounded-0">
@@ -564,7 +552,7 @@ $product = [
                             <div class="col col-auto">
                                 <div class="d-flex flex-column align-center">
                                     <img src="<?= $product['main_model'] ?>" alt="" height="100px">
-                                    <button class="btn btn-link btn-sm px-0 py-0"> <b>Edit</b></button>
+                                    <button class="btn btn-link btn-sm px-0 py-0" id="editMainModelBtn"> <b>Edit</b></button>
                                 </div>
                             </div>
                             <div class="col pl-3">
@@ -584,12 +572,12 @@ $product = [
                     </div>
 
                     <div class="col col-12">
-                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark">
+                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark" id="selectAllBtn">
                             <b>
                                 Select All
                             </b>
                         </button>
-                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark">
+                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark" id="selectNoneBtn">
                             <b>
                                 Select None
                             </b>
@@ -601,9 +589,16 @@ $product = [
 
     </div>
 
-    <div class="col col-12">
+    <div class="col col-12 d-flex flex-column align-center">
+
+        <div class="spinner-border my-5 mx-auto" role="status" id="loadingSpinner">
+            <span class="sr-only">Loading...</span>
+        </div>
+
         <?php
         $medias = $product['medias'];
         include('./components/product-image/showroom/showroom.php') ?>
+
+
     </div>
 </div>

@@ -19,9 +19,9 @@
 
     <main class="product-image">
         <div class="row">
-            <div class="col col-2 pr-0">
+            <aside class="col col-2 pr-0">
                 <?php include('./components/product-image/sidebar/sidebar-search.php') ?>
-            </div>
+            </aside>
 
             <div class="col col-10 px-0">
                 <?php include('./components/product-image/main.php') ?>
@@ -34,10 +34,13 @@
         <?php include('./components/product-image/modals/edit-main-model-modal.php') ?>
         <?php include('./components/product-image/modals/preview-image-modal.php') ?>
         <?php include('./components/product-image/modals/preview-video-modal.php') ?>
+        <?php include('./components/product-image/modals/preview-youtube-modal.php') ?>
+        <?php include('./components/product-image/modals/remove-media-modal.php') ?>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/product-image.js"></script>
 
 </body>
 

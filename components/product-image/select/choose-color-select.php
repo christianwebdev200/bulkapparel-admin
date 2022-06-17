@@ -2,9 +2,9 @@
     <?php
     $defaultColor = $colorList[0]; ?>
 
-    <button class="btn border dropdown-toggle w-100 d-flex align-items-center" type="button" id="chooseColorAria" data-toggle="dropdown" aria-expanded="false">
+    <button class="btn border dropdown-toggle w-100 d-flex align-items-center color-btn" type="button" id="chooseColorAria" data-toggle="dropdown" aria-expanded="false" data-id="0" data-hex="<?= $defaultColor['hex']; ?>" data-name="<?= $defaultColor['colorName']; ?>">
         <span class="color-box mr-3" style="background: <?= $defaultColor['hex']; ?>"></span>
-        <span class="mr-auto">
+        <span class="mr-auto color-name">
             <?= $defaultColor['colorName']; ?>
         </span>
     </button>

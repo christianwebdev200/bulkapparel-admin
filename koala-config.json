@@ -1,32 +1,30 @@
-
 {
-	
-	"mappings": [
-		{
-			"src": "sass/",
-			"dest": "style/"
-		}
-	],
+  "mappings": [
+    {
+      "src": "assets/scss/",
+      "dest": "style/"
+    }
+  ],
 
-	"ignores": ["*.css"],
+  "ignores": ["*.css"],
 
-	"options": {
-		"outputStyle": "compressed",
+  "options": {
+    "outputStyle": "compressed",
 
-		"lineComments": false,
+    "lineComments": false,
 
-		"debugInfo": false,
-		"sourceMap": false,
+    "debugInfo": false,
+    "sourceMap": false,
 
-		"unixNewlines": false,
+    "unixNewlines": false,
 
-        "autoprefix": true,
-        "autoprefixConfig" : "> 1%, last 2 versions, Firefox ESR, Opera 12.1"
-	},
+    "autoprefix": true,
+    "autoprefixConfig": "> 1%, last 2 versions, Firefox ESR, Opera 12.1"
+  },
 
-	"customOptions": [],
+  "customOptions": [],
 
-	"includePaths": [],
+  "includePaths": [],
 
-	"requireLibs": []
+  "requireLibs": []
 }

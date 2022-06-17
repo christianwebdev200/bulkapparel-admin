@@ -10,7 +10,7 @@
             <div class="modal-body">
                 <div class="form-group mb-0">
                     <select class="form-control" id="chooseMediaSelect">
-                        <option selected disabled>Choose Media</option>
+                        <option value="" selected disabled>Choose Media</option>
                         <option value="image">Image</option>
                         <option value="video">Video</option>
                         <option value="youtube">Youtube</option>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Next</button>
+                <button type="button" class="btn btn-primary btn-next">Next</button>
             </div>
         </div>
     </div>

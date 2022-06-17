@@ -1,4 +1,4 @@
-<div class="showroom">
+<div class="showroom" style="display: none;">
     <div class="row">
         <div class="col-12">
             <div class="d-flex flex-wrap">

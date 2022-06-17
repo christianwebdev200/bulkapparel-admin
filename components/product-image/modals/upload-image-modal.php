@@ -1,4 +1,4 @@
-<div class="modal fade" id="uploadImageModal" tabindex="1">
+<div class="modal fade" id="uploadImageModal" tabindex="2">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">

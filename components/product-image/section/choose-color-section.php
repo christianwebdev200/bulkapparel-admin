@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" id="chooseColorList">
     <div class="col-12">
         <h6>Choose Colors</h6>
     </div>

@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header d-flex align-items-center">
                 <h5 class="modal-title">Preview Image</h5>
-                <button class="btn btn-warning ml-2">Edit</button>
+                <button class="btn btn-warning ml-2 edit-btn">Edit</button>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
