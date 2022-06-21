@@ -486,6 +486,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_f_fm.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
         [
             "id" => 2,
@@ -493,6 +494,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_fm.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
         [
             "id" => 3,
@@ -500,6 +502,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://www.bulkapparel.com/image/fashion-wear/30032_b_fm.jpg",
             "is_custom_model_image" => true,
+            "active" => true
         ],
         [
             "id" => 4,
@@ -507,6 +510,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_62.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
         [
             "id" => 5,
@@ -514,6 +518,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_sd_62.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
         [
             "id" => 6,
@@ -521,6 +526,7 @@ $product = [
             "type" => "image",
             "image_url" => "https://300dev.bulkapparel.com/image/alpha-colors/fashion-wear/g500_bk_62.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
         [
             "id" => 7,
@@ -529,6 +535,7 @@ $product = [
             "video_url" => "https://www.alphabroder.com/prodvid/mp4/88189_vv.mp4",
             "video_thumbnail_url" => "https://www.bulkapparel.com/image/fashion-wear/16_fm.jpg",
             "is_custom_model_image" => false,
+            "active" => false
         ],
         [
             "id" => 8,
@@ -537,6 +544,7 @@ $product = [
             "youtube_url" => "https://www.youtube.com/watch?v=qyPuqamGZf0",
             "youtube_thumbnail_url" => "https://www.bulkapparel.com/image/fashion-wear/16_fm.jpg",
             "is_custom_model_image" => false,
+            "active" => true
         ],
     ]
 ];
@@ -571,17 +579,16 @@ $product = [
                         include('./components/product-image/section/choose-color-section.php'); ?>
                     </div>
 
-                    <div class="col col-12">
-                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark" id="selectAllBtn">
-                            <b>
-                                Select All
-                            </b>
-                        </button>
-                        <button class="btn btn-link text-decoration-none color-black btn-sm text-dark" id="selectNoneBtn">
-                            <b>
-                                Select None
-                            </b>
-                        </button>
+                    <div class="d-flex col col-12">
+                        <div class="custom-control custom-checkbox color-black mr-3 select select-all-card-media">
+                            <input type="checkbox" class="custom-control-input" id="selectAllBtn">
+                            <label class="custom-control-label" for="selectAllBtn"><small><b>Select All</b></small></label>
+                        </div>
+                        <div class="custom-control custom-checkbox color-black select-none-card-media">
+                            <input type="checkbox" class="custom-control-input" id="selectNoneBtn">
+                            <label class="custom-control-label" for="selectNoneBtn"><small><b>Select None</b></small></label>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ var loadingSpinner = $('#loadingSpinner');
 setTimeout(function () {
     loadingSpinner.hide()
     $('.showroom').show();
-}, 2000)
+}, 100)
 
 // choose colors select and list box
 var chooseColorList = $('#chooseColorList');
@@ -55,12 +55,16 @@ var allCardMedia = $('.card-media')
 var mediaSelectedClass = 'card-media--selected'
 var allCardMediaCheckbox = $('.card-media-select');
 
-selectAllBtn.on('click', function () {
+selectAllBtn.on('change', function () {
+    $(this).prop('checked', true);
+    selectNoneBtn.prop('checked', false)
     allCardMediaCheckbox.prop('checked', true);
     allCardMedia.addClass(mediaSelectedClass);
 })
 
-selectNoneBtn.on('click', function () {
+selectNoneBtn.on('change', function () {
+    $(this).prop('checked', true);
+    selectAllBtn.prop('checked', false)
     allCardMediaCheckbox.prop('checked', false)
     allCardMedia.removeClass(mediaSelectedClass);
 })

@@ -20,6 +20,12 @@
                     <p class="text-muted mb-0">6 Items</p>
                 </div>
 
+                <div class="col-12" style="display: none">
+                    <div class="spinner-border my-5 mx-auto" role="status" id="loadingSpinner">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+
                 <div class="col-12">
                     <?php
                     $searchedList = [

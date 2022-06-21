@@ -203,6 +203,13 @@ $color-selected: #4f4f4f;
       margin: 0 !important;
       padding: 0 !important;
       z-index: 2;
+      color: $color-selected !important;
+    }
+
+    &__active {
+      position: absolute !important;
+      bottom: 5px;
+      right: 5px;
     }
   }
 }
@@ -237,5 +244,22 @@ $color-selected: #4f4f4f;
       display: flex;
       align-items: center;
     }
+  }
+}
+
+.select-none-card-media,
+.select-all-card-media {
+  user-select: none;
+  label {
+    &::before {
+      border: 2px solid $color-selected !important;
+    }
+    &:checked ::before {
+      background-color: $color-selected;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: $color-selected;
   }
 }
