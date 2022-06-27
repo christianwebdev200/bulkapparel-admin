@@ -12,48 +12,110 @@
     <!-- <link rel="stylesheet" href="./style/bootstrap.css"> -->
 </head>
 
-<body>
+<body class="products">
     <header>
 
     </header>
 
     <main class="product-edit">
+        <input type="hidden" value="https://300dev.bulkapparel.com/tshirts/g500-gildan-t-shirt-5000-heavy-cotton-53" id="productUrl">
+
+
         <div class="row">
             <aside class="col col-auto pr-0">
                 <?php include('./components/productedit/sidebar/search-sidebar.php'); ?>
             </aside>
 
-            <span id="scriptid"></span>
+            <!-- <span id="scriptid"></span> -->
 
-            <div class="col px-0 py-2 px-2">
-                <div id="cdetailsh">
-                    <div class="od-box-default">
-                        <h2 style="padding-top:125px;padding-left:62px;color:#1588e1;">Style data will be displayed when you click on
+            <div class="col py-2 px-2">
+                <div class="row no-gutters">
+                    <div class="col col-9 pr-2" id="productEditContent">
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- Live Preview -->
+                            <div class="tab-pane" id="livePreview" role="tabpanel">
+                                <?php include('./components/productedit/subpages/live-preview/views.php'); ?>
+                            </div>
+                            <!-- Live Preview -->
 
-                            any of style id from style list</h2>
-                    </div>
-                </div>
+                            <!-- Product details -->
+                            <div class="tab-pane show active" id="details" role="tabpanel">
+                                <?php include('./components/productedit/subpages/product-details/views.php'); ?>
+                            </div>
+                            <!-- Product details -->
 
-                <div class="card w-100 mt-2" id="sectionCardHeader" style="display: none;">
-                    <div class="card-body py-3 px-3">
-                        <h3 class="card-title"></h3>
-                        <div class="card-subtitle">
+                            <!-- Canned message -->
+                            <div class="tab-pane fade" id="cannedMessage" role="tabpanel">
+                                <?php include('./components/productedit/subpages/canned-message/views.php'); ?>
+                            </div>
+                            <!-- Canned message -->
+
+                            <!-- Prices -->
+                            <div class="tab-pane fade" id="price" role="tabpanel">
+                                <?php include('./components/productedit/subpages/price/views.php'); ?>
+                            </div>
+                            <!-- Prices -->
+
+                            <!-- Images -->
+                            <div class="tab-pane fade" id="images" role="tabpanel">
+                                <?php include('./components/productedit/subpages/images/views.php'); ?>
+                            </div>
+                            <!-- Images -->
+
+                            <!-- Colors -->
+                            <div class="tab-pane fade" id="colors" role="tabpanel">
+                                <?php include('./components/productedit/subpages/colors/views.php'); ?>
+                            </div>
+                            <!-- Colors -->
+
+                            <!-- Inventory -->
+                            <div class="tab-pane fade" id="inventory" role="tabpanel">
+                                <?php include('./components/productedit/subpages/inventory/views.php'); ?>
+                            </div>
+                            <!-- Inventory -->
+
+
+                            <!-- Options -->
+                            <div class="tab-pane fade" id="options" role="tabpanel">
+                                <?php include('./components/productedit/subpages/options/views.php'); ?>
+                            </div>
+                            <!-- Options -->
+
+                            <!-- Meta -->
+                            <div class="tab-pane fade" id="meta" role="tabpanel">
+                                <?php include('./components/productedit/subpages/meta/views.php'); ?>
+                            </div>
+                            <!-- Meta -->
+
+                            <!-- Reviews -->
+                            <div class="tab-pane fade" id="reviews" role="tabpanel">
+                                <?php include('./components/productedit/subpages/reviews/views.php'); ?>
+                            </div>
+                            <!-- Reviews -->
+
+                            <!-- Promo -->
+                            <div class="tab-pane fade" id="promo" role="tabpanel">
+                                <?php include('./components/productedit/subpages/promo/views.php'); ?>
+                            </div>
+                            <!-- Promo -->
+
+                            <!-- Categories -->
+                            <div class="tab-pane fade" id="categories" role="tabpanel">
+                                <?php include('./components/productedit/subpages/categories/views.php'); ?>
+                            </div>
+                            <!-- Categories -->
+
+                            <!-- Categories -->
+                            <div class="tab-pane fade" id="legacy" role="tabpanel">
+                                <?php include('./components/productedit/subpages/legacy/views.php'); ?>
+                            </div>
+                            <!-- Categories -->
                         </div>
                     </div>
-                </div>
-                <div class="py-2 px-2" id="cdetails" style="display:<?php if (isset($results) && !empty($results)) {
-                                                                        echo "none";
-                                                                    } else {
-                                                                        echo "none";
-                                                                    } ?>;">
-
-
-                    <div id="cajaxdata">
-
-
+                    <div class="col col-3 pr-3" id="productEditOverview">
+                        <?php include('./components/productedit/section/product-overview.php'); ?>
                     </div>
                 </div>
-
             </div>
         </div>
 

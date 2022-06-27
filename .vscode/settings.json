@@ -10,6 +10,6 @@
         "baseUri": "/",                             //  ii. workspace
         "proxyUri": "http://localhost/bulkapparel-admin/index.php" // iii. actual address
     },
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
    
 }

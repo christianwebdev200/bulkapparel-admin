@@ -1,47 +1,60 @@
 <div class="card rounded-0 px-2 py-3 search-sidebar">
     <div class="row">
-        <div class="search-sidebar__tabs col col-12 mb-2" style="display: none;">
+        <div class="search-sidebar__tabs col col-12 mb-2">
 
             <ul class="nav nav-pills nav-tab" role="tablist" id="search-sidebar-tab">
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="overview" id="overviewTabBtn">Overview</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#livePreview" id="overviewTabBtn">Live</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="details" id="detailsTabBtn">Details</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1 active" data-toggle="list" role="tab" href="#details" id="detailsTabBtn">Details</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="canned" id="cannedTabBtn">Canned Message</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#cannedMessage" id="cannedTabBtn">Canned Message</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="price" id="priceTabBtn">Price</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#price" id="priceTabBtn">Price</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="images" id="imagesTabBtn" target="_blank">Images</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#images" id="imagesTabBtn" target="_blank">Images</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="colors" id="colorsTabBtn">Colors</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#colors" id="colorsTabBtn">Colors</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="inventory" id="inventoryTabBtn">Inventory</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#inventory" id="inventoryTabBtn">Inventory</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="options" id="optionsTabBtn">Options</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#options" id="optionsTabBtn">Options</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="meta" id="metaTabBtn">Meta</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#meta" id="metaTabBtn">Meta</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-target="oldVersion" id="oldVersionTabBtn">Old Version</a>
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#reviews" id="reviewTabBtn">Reviews</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#promo" id="promoTabBtn">Promo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#categories" id="categoriesTabBtn">Categories</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary px-1 py-1 mb-1 mr-1" data-toggle="list" role="tab" href="#legacy" id="legacyTabBtn">Legacy</a>
                 </li>
             </ul>
 
