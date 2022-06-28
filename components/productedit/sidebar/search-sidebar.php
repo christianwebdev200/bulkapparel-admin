@@ -63,7 +63,7 @@
             <div class="form-group">
                 <label class="text-muted" for="exampleInputEmail1">
                     <small>
-                        Search by keyworkd and styleName
+                        Search by keyword and styleName
                     </small>
                 </label>
                 <input type="text" class="form-control" placeholder="Search styleID or Product Name">
@@ -163,7 +163,7 @@
                     'colorCount' => '26'
                 ],
             ]; ?>
-            <ul>
+            <ul class="search-sidebar__list">
 
                 <?php foreach ($searchedList as $value) { ?>
                     <li>

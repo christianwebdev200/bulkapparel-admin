@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<div id="cdetails" style="display:<?php if (isset($results) && !empty($results)) {
+<div class="" id="cdetails" style="display:<?php if (isset($results) && !empty($results)) {
                                         echo "none";
                                     } else {
                                         echo "none";

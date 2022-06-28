@@ -35,6 +35,16 @@ $color-selected: #4f4f4f;
 .choose-color-select {
   width: 260px;
 
+  &.open {
+    .dropdown-menu {
+      display: block !important;
+    }
+  }
+
+  .dropdown-toggle {
+    color: #000 !important;
+  }
+
   .color-box {
     height: 30px;
     width: 30px;

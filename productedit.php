@@ -29,7 +29,30 @@
             <!-- <span id="scriptid"></span> -->
 
             <div class="col py-2 px-2">
-                <div class="row no-gutters">
+                <div class="row no-gutters" id="productEditLoading" style="display: none;">
+                    <div class="col-12">
+                        <div class="product-edit__loading">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+
+                            <h2 class="headline-3 mt-3 text-primary">
+                                Fetching Product Information...
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters" id="productSelectFirst" style="display: none;">
+                    <div class="col-12">
+                        <div class="product-edit__select-first">
+                            <h2 class="headline-2 text-primary">
+                                Style data will be displayed when you click on any of style id from style list
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters" id="productEditMain" style="">
                     <div class="col col-9 pr-2" id="productEditContent">
                         <div class="tab-content" id="nav-tabContent">
                             <!-- Live Preview -->
