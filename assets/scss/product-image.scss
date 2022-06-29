@@ -6,10 +6,17 @@ $color-border: #dee2e6;
 $color-custom-model: #27ae60;
 $color-selected: #4f4f4f;
 
+html {
+  font-size: 16px !important;
+}
+
 .productimages {
-  .product-image {
-    background: #f1f4f7;
-    overflow: hidden;
+  .open>.dropdown-menu {
+    display: block !important;
+  }
+
+  #editMainModelBtn {
+    color: #007bff !important;
   }
 
   .color-box {
@@ -23,12 +30,32 @@ $color-selected: #4f4f4f;
     margin-top: 0 !important;
     cursor: pointer;
     overflow: hidden;
-    &.active {
+    &.box-active {
       border: 3px solid $color-primary;
     }
   }
   .new-admin-padding {
     padding-left: 105px !important;
+  }
+}
+
+
+.product-image {
+  background: #f1f4f7;
+  overflow: hidden;
+
+  &__loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+  }
+  
+  &__select-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
   }
 }
 
@@ -41,7 +68,7 @@ $color-selected: #4f4f4f;
     }
   }
 
-  .dropdown-toggle {
+  .btn {
     color: #000 !important;
   }
 
@@ -256,6 +283,7 @@ $color-selected: #4f4f4f;
     }
   }
 }
+
 
 .select-none-card-media,
 .select-all-card-media {

@@ -229,3 +229,28 @@ removeMediaModal.find('.yes-btn').on('click', function () {
     // delete media card here...
     removeMediaModal.modal('hide')
 })
+
+
+var pageLoading = $('#productImageLoading')
+var pageSelectFirst = $('#productImageSelectFirst')
+var pageContent = $('#productImageMain')
+
+function productImageState(state) {
+    switch(state) {
+        case 'loading':
+            pageLoading.show();
+            pageSelectFirst.hide();
+            pageContent.hide();
+            break;
+        case 'select-first':
+            pageLoading.hide();
+            pageSelectFirst.show();
+            pageContent.hide();
+            break;
+        case 'content':
+            pageLoading.hide();
+            pageSelectFirst.hide();
+            pageContent.show();
+            break;
+    }
+}

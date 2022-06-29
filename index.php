@@ -18,13 +18,37 @@
     </header>
 
     <main class="product-image">
+
+
         <div class="row">
             <aside class="col col-2 pr-0">
                 <?php include('./components/product-image/sidebar/sidebar-search.php') ?>
             </aside>
 
             <div class="col col-10 px-0">
-                <?php include('./components/product-image/main.php') ?>
+                <div class="row">
+                    <div class="col-12" id="productImageSelectFirst">
+                        <div class="product-image__select-first">
+                            <h2 class="headline-2 text-primary">
+                                Style data will be displayed when you click on any of style id from style list
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12" id="productImageLoading" style="display: none;">
+                        <div class="product-edit__loading">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+
+                            <h2 class="headline-3 mt-3 text-primary">
+                                Fetching Product Information...
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12" id="productImageMain" style="display: none;">
+                        <?php include('./components/product-image/main.php') ?>
+                    </div>
+                </div>
             </div>
         </div>
         <?php include('./components/product-image/modals/choose-media-modal.php') ?>
